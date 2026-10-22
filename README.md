@@ -8,6 +8,8 @@
 AI systems · agent reliability · evals
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asmit-shaw-6a09a2315)
+[![Email](https://img.shields.io/badge/Email-asmit.shaw%40research.iiit.ac.in-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:asmit.shaw@research.iiit.ac.in)
+[![GitHub](https://img.shields.io/badge/GitHub-1Ash0-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/1Ash0)
 <!-- TODO: add portfolio badge once the site is live
 [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat-square)](https://YOUR-SITE) -->
 
@@ -48,6 +50,29 @@ That's the through-line in my research direction: calibrated uncertainty, interp
 | **[C Shell](https://github.com/1Ash0/c-shell)** | A Unix shell written from scratch in C for my OS course: parsing, process creation, job handling | C | Course project |
 
 <!-- TODO: verify the repo URLs match your real repo names; delete any row whose repo is private -->
+
+---
+
+## 🧰 Tech arsenal
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,c,js,react,nextjs,fastapi,postgres,redis,threejs,docker,git,linux,vercel&perline=13" alt="Python, C, JavaScript, React, Next.js, FastAPI, PostgreSQL, Redis, Three.js, Docker, Git, Linux, Vercel" />
+
+</div>
+
+| Area | What I use |
+|---|---|
+| **Languages** | Python, C, JavaScript |
+| **Agents and LLM systems** | LangGraph, MCP, Groq, multi-agent orchestration, context compaction, evals |
+| **Retrieval and data** | pgvector, Qdrant, PostgreSQL, Redis (Pub/Sub) |
+| **Web and visualization** | Next.js, React, FastAPI, Three.js/WebGL |
+| **Systems** | Linux, xv6 (MLFQ scheduler), a Unix shell in C |
+| **Shipping** | Git, Docker, Vercel, GitHub Actions |
+
+<!-- TODO: remove any icon or row you don't actually use; keep this list honest -->
+
+---
 
 <details>
 <summary><b>🧪 Building now (click to expand)</b></summary>
@@ -109,6 +134,17 @@ _No recent public commits._
 </table>
 
 <sub>Last refreshed: <!-- UPDATED:START -->22 Oct 2026, 15:00 UTC<!-- UPDATED:END --></sub>
+
+---
+
+## 📬 Contact
+
+| | |
+|---|---|
+| ✉️ **Email** | [asmit.shaw@research.iiit.ac.in](mailto:asmit.shaw@research.iiit.ac.in) |
+| 💼 **LinkedIn** | [asmit-shaw](https://www.linkedin.com/in/asmit-shaw-6a09a2315) |
+| 🐙 **GitHub** | [1Ash0](https://github.com/1Ash0) |
+| 🎓 **Affiliation** | IIIT Hyderabad, B.Tech + M.S. by Research in CSE |
 
 ---
 
