@@ -89,6 +89,11 @@ Each gets linked here once it has a working demo, not before.
 
 ### Recently active repos
 <!-- REPOS:START -->
+- **[canary](https://github.com/1Ash0/canary)** · `Python`
+- **[FDAO](https://github.com/1Ash0/FDAO)** · `Python`
+- **[c-shell](https://github.com/1Ash0/c-shell)** · `C`
+- **[Nexora](https://github.com/1Ash0/Nexora)** · `Python`
+- **[ML-Air-Pollutants](https://github.com/1Ash0/ML-Air-Pollutants)** · `Python`
 <!-- REPOS:END -->
 
 </td>
@@ -96,13 +101,14 @@ Each gets linked here once it has a working demo, not before.
 
 ### Latest commits
 <!-- COMMITS:START -->
+_No recent public commits._
 <!-- COMMITS:END -->
 
 </td>
 </tr>
 </table>
 
-<sub>Last refreshed: <!-- UPDATED:START -->never<!-- UPDATED:END --></sub>
+<sub>Last refreshed: <!-- UPDATED:START -->22 Oct 2026, 15:00 UTC<!-- UPDATED:END --></sub>
 
 ---
 
