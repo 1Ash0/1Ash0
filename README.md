@@ -43,7 +43,7 @@ That's the through-line in my research direction: calibrated uncertainty, interp
 | Project | What it does | Stack | Links |
 |---|---|---|---|
 | **[Canary](https://github.com/1Ash0/canary)** | Open-source kit that plants facts in an agent's context, compacts it four ways, and measures which facts survive. 3 canaries, 4 policies, 27 seeds per cell, preregistered, every run replayable. | Python | [Live demo](https://canary-brown.vercel.app) · [Repo](https://github.com/1Ash0/canary) |
-| **[ChunkScope](https://github.com/1Ash0/ChunkScope)** | Visualizes a RAG pipeline end to end, so you can see how chunking and retrieval choices change what the model receives | Next.js, FastAPI, Three.js/WebGL, pgvector | Being upgraded for deployment |
+| **[ChunkScope](https://github.com/1Ash0/chunkscope)** | Visualizes a RAG pipeline end to end, so you can see how chunking and retrieval choices change what the model receives | Next.js, FastAPI, Three.js/WebGL, pgvector | Being upgraded for deployment |
 | **[Nexora](https://github.com/1Ash0/Nexora)** | Five-agent research pipeline (planner, executor, critic, contradiction engine, synthesizer) on LangGraph. Deep research in under 3 minutes. | LangGraph, Qdrant, Redis Pub/Sub, Groq | Being upgraded for deployment |
 | **[C Shell](https://github.com/1Ash0/c-shell)** | A Unix shell written from scratch in C for my OS course: parsing, process creation, job handling | C | Course project |
 
