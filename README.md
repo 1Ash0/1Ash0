@@ -36,6 +36,8 @@ Agents and ML systems usually fail quietly: a confident wrong answer, a badly ch
 
 Canary is the clearest example. I planted facts in an agent's context, compacted it four different ways, and checked which facts survived. A channel rule died in 27 of 27 runs under the head+tail policy, and nothing in the agent's output hinted that it was gone.
 
+surfacelab asks the same question of tool choice. On tools with one clear job each, models were near perfect; on real MCP servers loaded together, gpt-oss found the only right tool 77% of the time, and its misses landed on tools whose descriptions read alike.
+
 That's the through-line in my research direction: calibrated uncertainty, interpretable policies, and evals that catch silent failure.
 
 ---
@@ -44,6 +46,7 @@ That's the through-line in my research direction: calibrated uncertainty, interp
 
 | Project | What it does | Stack | Links |
 |---|---|---|---|
+| **[surfacelab](https://github.com/1Ash0/surfacelab)** | Open evaluation of how AI agents choose MCP tools: 12 preregistered experiments, 3 models, 396 recorded calls on 82 tools from 11 real servers, drawn as a scroll-driven 3D observatory. Found that misses land on look-alike descriptions, and that adding a second browser server changed the agent's first move in 14 of 24 requests. | Python, Three.js/WebGL, Docker | [Observatory](https://1ash0.github.io/surfacelab/) · [Repo](https://github.com/1Ash0/surfacelab) |
 | **[Canary](https://github.com/1Ash0/canary)** | Open-source kit that plants facts in an agent's context, compacts it four ways, and measures which facts survive. 3 canaries, 4 policies, 27 seeds per cell, preregistered, every run replayable. | Python | [Live demo](https://canary-brown.vercel.app) · [Repo](https://github.com/1Ash0/canary) |
 | **[ChunkScope](https://github.com/1Ash0/chunkscope)** | Visualizes a RAG pipeline end to end, so you can see how chunking and retrieval choices change what the model receives | Next.js, FastAPI, Three.js/WebGL, pgvector | Being upgraded for deployment |
 | **[Nexora](https://github.com/1Ash0/Nexora)** | Five-agent research pipeline (planner, executor, critic, contradiction engine, synthesizer) on LangGraph. Deep research in under 3 minutes. | LangGraph, Qdrant, Redis Pub/Sub, Groq | Being upgraded for deployment |
@@ -79,9 +82,8 @@ That's the through-line in my research direction: calibrated uncertainty, interp
 
 <br/>
 
-Canary was the first of a set of agent-harness projects, built one at a time:
+Canary and surfacelab were the first two of a set of agent-harness projects, built one at a time:
 
-- **Tool-surface lab**: how does MCP tool design change which tool an agent picks?
 - **Telemetry probes**: are agent trace detectors valid across different harnesses?
 
 Each gets linked here once it has a working demo, not before.
