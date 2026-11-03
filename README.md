@@ -144,11 +144,11 @@ Each gets linked here once it has a working demo, not before.
 
 ### Latest commits
 <!-- COMMITS:START -->
+- [`9a27312`](https://github.com/1Ash0/assay/commit/9a27312c9b4ccf53edaf874ae5e9892781da867b) ci: dependabot ignores major bumps (zod 4 would change the… <sub>· assay · 03 Nov 2026</sub>
 - [`f8a484d`](https://github.com/1Ash0/assay/commit/f8a484dd4820397c6effc354dc729786bb1d9b0b) ci: Windows and Linux, pnpm cache, concurrency, timeouts, w… <sub>· assay · 03 Nov 2026</sub>
 - [`f04c587`](https://github.com/1Ash0/assay/commit/f04c58769acf1e15b502c29ba353e1aa235eeadd) chore: package description, homepage, repository and keywor… <sub>· assay · 03 Nov 2026</sub>
 - [`c57e43c`](https://github.com/1Ash0/assay/commit/c57e43caa9abbcd617544527ef9d8b2e8f4dee0a) feat(video): post cover still (Thumb) from the held-out R2… <sub>· assay · 03 Nov 2026</sub>
 - [`55546bb`](https://github.com/1Ash0/assay/commit/55546bbf7e34b179896e10f058d14791f698f220) feat(site): publish the landing page at the root, explorer… <sub>· assay · 03 Nov 2026</sub>
-- [`45f7f9d`](https://github.com/1Ash0/assay/commit/45f7f9d1a636ea789820a57060962acb9f8a8d55) docs: README with demo, use, limitations, logos; logo and d… <sub>· assay · 03 Nov 2026</sub>
 - [`0f8b697`](https://github.com/1Ash0/surfacelab/commit/0f8b697033394ee5ad4750df6b8de4a3262fc476) feat(exp006): drift re-probe against latest releases (1 des… <sub>· surfacelab · 30 Oct 2026</sub>
 <!-- COMMITS:END -->
 
@@ -156,7 +156,7 @@ Each gets linked here once it has a working demo, not before.
 </tr>
 </table>
 
-<sub>Last refreshed: <!-- UPDATED:START -->03 Nov 2026, 20:23 UTC<!-- UPDATED:END --></sub>
+<sub>Last refreshed: <!-- UPDATED:START -->03 Nov 2026, 20:24 UTC<!-- UPDATED:END --></sub>
 
 ---
 
