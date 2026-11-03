@@ -116,11 +116,11 @@ Each gets linked here once it has a working demo, not before.
 
 ### Recently active repos
 <!-- REPOS:START -->
+- **[assay](https://github.com/1Ash0/assay)** · `TypeScript`
 - **[surfacelab](https://github.com/1Ash0/surfacelab)** · `Python`
 - **[canary](https://github.com/1Ash0/canary)** · `Python`
 - **[FDAO](https://github.com/1Ash0/FDAO)** · `Python`
 - **[c-shell](https://github.com/1Ash0/c-shell)** · `C`
-- **[Nexora](https://github.com/1Ash0/Nexora)** · `Python`
 <!-- REPOS:END -->
 
 </td>
@@ -135,7 +135,7 @@ _No recent public commits._
 </tr>
 </table>
 
-<sub>Last refreshed: <!-- UPDATED:START -->02 Nov 2026, 14:43 UTC<!-- UPDATED:END --></sub>
+<sub>Last refreshed: <!-- UPDATED:START -->03 Nov 2026, 00:28 UTC<!-- UPDATED:END --></sub>
 
 ---
 
