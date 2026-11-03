@@ -5,15 +5,26 @@
 </a>
 
 **B.Tech + M.S. by Research in CSE @ IIIT Hyderabad**
-AI systems · agent reliability · evals
+AI systems · agent reliability · evals · telemetry you can verify
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asmit-shaw-6a09a2315)
 [![Email](https://img.shields.io/badge/Email-asmit.shaw%40research.iiit.ac.in-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:asmit.shaw@research.iiit.ac.in)
 [![GitHub](https://img.shields.io/badge/GitHub-1Ash0-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/1Ash0)
+[![assay](https://img.shields.io/badge/latest-assay-FF5B3A?style=flat-square)](https://1ash0.github.io/assay/)
 <!-- TODO: add portfolio badge once the site is live
 [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat-square)](https://YOUR-SITE) -->
 
 </div>
+
+---
+
+## 🔬 Latest: assay
+
+<p align="center"><a href="https://1ash0.github.io/assay/"><img src="https://raw.githubusercontent.com/1Ash0/assay/main/docs/assets/demo.gif" alt="assay rebuilding the request a model was sent and sealing it against the transcript's own hash" width="560"></a></p>
+
+**Can you trust your coding agent's telemetry?** I summed the usage on every line of one of my own Claude Code sessions and got 20,195 output tokens. Counted once per message: 5,320. **assay** audits the record before you read anything into it: it states what was captured, runs 14 self-consistency checks with findings pinned to file, line and bytes, and rebuilds each API request to hash-match the transcript's own digest. Local-only, deterministic, no model in any verdict.
+
+[**Live site**](https://1ash0.github.io/assay/) · [**Explorer**](https://1ash0.github.io/assay/explorer.html) · [**Repo and limitations**](https://github.com/1Ash0/assay)
 
 ---
 
@@ -38,7 +49,9 @@ Canary is the clearest example. I planted facts in an agent's context, compacted
 
 surfacelab asks the same question of tool choice. On tools with one clear job each, models were near perfect; on real MCP servers loaded together, gpt-oss found the only right tool 77% of the time, and its misses landed on tools whose descriptions read alike.
 
-That's the through-line in my research direction: calibrated uncertainty, interpretable policies, and evals that catch silent failure.
+assay turns the same question on the logs themselves. When I tried to rebuild exactly what a model was sent from its own transcript, it worked for 0 of 2,049 requests; with the stored blobs, 99.7% hash-matched. Anything it can't prove stays "unresolved" instead of being guessed. I also tested whether an LLM could do the checking: AUROC 0.48 on 379 human-labelled spans, so no model gets near a verdict.
+
+That's the through-line in my research direction: calibrated uncertainty, interpretable policies, and evals and telemetry that catch silent failure.
 
 ---
 
@@ -46,13 +59,13 @@ That's the through-line in my research direction: calibrated uncertainty, interp
 
 | Project | What it does | Stack | Links |
 |---|---|---|---|
+| **[assay](https://github.com/1Ash0/assay)** | Audits Claude Code telemetry: states what was captured (Capture Level L1–L4), runs 14 self-consistency checks with findings pinned to file, line and byte range, and rebuilds each API request to hash-match the transcript's own digest (99.7% of held-out requests; 0 of 2,049 from lines alone). A naive sum of the log overcounted output tokens 3.8× in one run. An LLM judge scored AUROC 0.48, so no model touches a verdict. One user's sessions, run locally. | TypeScript, zod, Vitest, OpenTelemetry | [Live site](https://1ash0.github.io/assay/) · [Repo](https://github.com/1Ash0/assay) |
 | **[surfacelab](https://github.com/1Ash0/surfacelab)** | Open evaluation of how AI agents choose MCP tools: 12 preregistered experiments, 3 models, 396 recorded calls on 82 tools from 11 real servers, drawn as a scroll-driven 3D observatory. Found that misses land on look-alike descriptions, and that adding a second browser server changed the agent's first move in 14 of 24 requests. | Python, Three.js/WebGL, Docker | [Observatory](https://1ash0.github.io/surfacelab/) · [Repo](https://github.com/1Ash0/surfacelab) |
 | **[Canary](https://github.com/1Ash0/canary)** | Open-source kit that plants facts in an agent's context, compacts it four ways, and measures which facts survive. 3 canaries, 4 policies, 27 seeds per cell, preregistered, every run replayable. | Python | [Live demo](https://canary-brown.vercel.app) · [Repo](https://github.com/1Ash0/canary) |
 | **[ChunkScope](https://github.com/1Ash0/chunkscope)** | Visualizes a RAG pipeline end to end, so you can see how chunking and retrieval choices change what the model receives | Next.js, FastAPI, Three.js/WebGL, pgvector | Being upgraded for deployment |
 | **[Nexora](https://github.com/1Ash0/Nexora)** | Five-agent research pipeline (planner, executor, critic, contradiction engine, synthesizer) on LangGraph. Deep research in under 3 minutes. | LangGraph, Qdrant, Redis Pub/Sub, Groq | Being upgraded for deployment |
 | **[C Shell](https://github.com/1Ash0/c-shell)** | A Unix shell written from scratch in C for my OS course: parsing, process creation, job handling | C | Course project |
 
-<!-- TODO: verify the repo URLs match your real repo names; delete any row whose repo is private -->
 
 ---
 
@@ -60,14 +73,15 @@ That's the through-line in my research direction: calibrated uncertainty, interp
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,c,js,react,nextjs,fastapi,postgres,redis,threejs,docker,git,linux,vercel&perline=13" alt="Python, C, JavaScript, React, Next.js, FastAPI, PostgreSQL, Redis, Three.js, Docker, Git, Linux, Vercel" />
+<img src="https://skillicons.dev/icons?i=py,c,js,ts,react,nextjs,fastapi,postgres,redis,threejs,docker,git,linux,vercel&perline=14" alt="Python, C, JavaScript, React, Next.js, FastAPI, PostgreSQL, Redis, Three.js, Docker, Git, Linux, Vercel" />
 
 </div>
 
 | Area | What I use |
 |---|---|
-| **Languages** | Python, C, JavaScript |
+| **Languages** | Python, C, JavaScript, TypeScript |
 | **Agents and LLM systems** | LangGraph, MCP, Groq, multi-agent orchestration, context compaction, evals |
+| **Telemetry and testing** | OpenTelemetry, Vitest, Playwright, JSON Schema (zod) |
 | **Retrieval and data** | pgvector, Qdrant, PostgreSQL, Redis (Pub/Sub) |
 | **Web and visualization** | Next.js, React, FastAPI, Three.js/WebGL |
 | **Systems** | Linux, xv6 (MLFQ scheduler), a Unix shell in C |
@@ -82,9 +96,11 @@ That's the through-line in my research direction: calibrated uncertainty, interp
 
 <br/>
 
-Canary and surfacelab were the first two of a set of agent-harness projects, built one at a time:
+Canary, surfacelab and assay are a set of agent-harness projects, built one at a time. What's next on assay:
 
-- **Telemetry probes**: are agent trace detectors valid across different harnesses?
+- A hooks (L2) importer: no run has been captured at L2 yet
+- An intake for redacted runs from other people, since every number so far is one user's
+- Extending the parent-chain check to links of non-event lines, a blind spot found by planting a known fault
 
 Each gets linked here once it has a working demo, not before.
 
@@ -116,7 +132,7 @@ Each gets linked here once it has a working demo, not before.
 
 ### Recently active repos
 <!-- REPOS:START -->
-- **[assay](https://github.com/1Ash0/assay)** · `TypeScript`
+- **[assay](https://github.com/1Ash0/assay)** · `TypeScript`<br/><sub>Can you trust your coding agent’s telemetry? assay audits Claude Code…</sub>
 - **[surfacelab](https://github.com/1Ash0/surfacelab)** · `Python`
 - **[canary](https://github.com/1Ash0/canary)** · `Python`
 - **[FDAO](https://github.com/1Ash0/FDAO)** · `Python`
@@ -128,14 +144,19 @@ Each gets linked here once it has a working demo, not before.
 
 ### Latest commits
 <!-- COMMITS:START -->
-_No recent public commits._
+- [`f8a484d`](https://github.com/1Ash0/assay/commit/f8a484dd4820397c6effc354dc729786bb1d9b0b) ci: Windows and Linux, pnpm cache, concurrency, timeouts, w… <sub>· assay · 03 Nov 2026</sub>
+- [`f04c587`](https://github.com/1Ash0/assay/commit/f04c58769acf1e15b502c29ba353e1aa235eeadd) chore: package description, homepage, repository and keywor… <sub>· assay · 03 Nov 2026</sub>
+- [`c57e43c`](https://github.com/1Ash0/assay/commit/c57e43caa9abbcd617544527ef9d8b2e8f4dee0a) feat(video): post cover still (Thumb) from the held-out R2… <sub>· assay · 03 Nov 2026</sub>
+- [`55546bb`](https://github.com/1Ash0/assay/commit/55546bbf7e34b179896e10f058d14791f698f220) feat(site): publish the landing page at the root, explorer… <sub>· assay · 03 Nov 2026</sub>
+- [`45f7f9d`](https://github.com/1Ash0/assay/commit/45f7f9d1a636ea789820a57060962acb9f8a8d55) docs: README with demo, use, limitations, logos; logo and d… <sub>· assay · 03 Nov 2026</sub>
+- [`0f8b697`](https://github.com/1Ash0/surfacelab/commit/0f8b697033394ee5ad4750df6b8de4a3262fc476) feat(exp006): drift re-probe against latest releases (1 des… <sub>· surfacelab · 30 Oct 2026</sub>
 <!-- COMMITS:END -->
 
 </td>
 </tr>
 </table>
 
-<sub>Last refreshed: <!-- UPDATED:START -->03 Nov 2026, 13:36 UTC<!-- UPDATED:END --></sub>
+<sub>Last refreshed: <!-- UPDATED:START -->03 Nov 2026, 20:23 UTC<!-- UPDATED:END --></sub>
 
 ---
 
@@ -158,6 +179,6 @@ _No recent public commits._
   <img alt="Contribution graph, eaten by a snake" src="https://raw.githubusercontent.com/1Ash0/1Ash0/output/github-snake.svg" />
 </picture>
 
-**Working on agent reliability, evals, or RAG failure modes? Let's compare notes: [LinkedIn](https://www.linkedin.com/in/asmit-shaw-6a09a2315).**
+**Working on agent reliability, evals, telemetry, or RAG failure modes? Let's compare notes: [LinkedIn](https://www.linkedin.com/in/asmit-shaw-6a09a2315).**
 
 </div>
