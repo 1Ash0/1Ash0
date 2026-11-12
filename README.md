@@ -156,7 +156,7 @@ Each gets linked here once it has a working demo, not before.
 </tr>
 </table>
 
-<sub>Last refreshed: <!-- UPDATED:START -->12 Nov 2026, 00:00 UTC<!-- UPDATED:END --></sub>
+<sub>Last refreshed: <!-- UPDATED:START -->12 Nov 2026, 14:35 UTC<!-- UPDATED:END --></sub>
 
 ---
 
