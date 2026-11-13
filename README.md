@@ -144,19 +144,19 @@ Each gets linked here once it has a working demo, not before.
 
 ### Latest commits
 <!-- COMMITS:START -->
+- [`4a17a18`](https://github.com/1Ash0/DnA-ICC/commit/4a17a18a6c3e06c2934ea406dda299e430846cba) Re-record demo video as one continuous take with natural na… <sub>· DnA-ICC · 13 Nov 2026</sub>
+- [`9b8f87d`](https://github.com/1Ash0/DnA-ICC/commit/9b8f87dccc5f1ad2cd9f8a0a5c15a8eb07056e20) Burn narration captions into 45.mp4; add 45.srt <sub>· DnA-ICC · 13 Nov 2026</sub>
+- [`7de666a`](https://github.com/1Ash0/DnA-ICC/commit/7de666a2d01c8cb1fa3a8d42e8594110ef0e1f9e) Add demo video 45.mp4 <sub>· DnA-ICC · 13 Nov 2026</sub>
+- [`5d3062f`](https://github.com/1Ash0/DnA-ICC/commit/5d3062fd7a8db23357c0098efffe72042f36a737) Rename matches form field to match_count; add update-path t… <sub>· DnA-ICC · 13 Nov 2026</sub>
 - [`0d9dae3`](https://github.com/1Ash0/DnA-ICC/commit/0d9dae3892f10288ab5b43c5af5c9813d7cce229) Phase 4: ICC rankings MySQL schema, populate data, Flask ap… <sub>· DnA-ICC · 12 Nov 2026</sub>
 - [`77a17c5`](https://github.com/1Ash0/mcp-226-docstring-eval/commit/77a17c56ebe21b0dbd7b8077149f3bd16a937ce8) Data for modelcontextprotocol/python-sdk#226 docstring-form… <sub>· mcp-226-docstring-eval · 06 Nov 2026</sub>
-- [`9a27312`](https://github.com/1Ash0/assay/commit/9a27312c9b4ccf53edaf874ae5e9892781da867b) ci: dependabot ignores major bumps (zod 4 would change the… <sub>· assay · 03 Nov 2026</sub>
-- [`f8a484d`](https://github.com/1Ash0/assay/commit/f8a484dd4820397c6effc354dc729786bb1d9b0b) ci: Windows and Linux, pnpm cache, concurrency, timeouts, w… <sub>· assay · 03 Nov 2026</sub>
-- [`f04c587`](https://github.com/1Ash0/assay/commit/f04c58769acf1e15b502c29ba353e1aa235eeadd) chore: package description, homepage, repository and keywor… <sub>· assay · 03 Nov 2026</sub>
-- [`c57e43c`](https://github.com/1Ash0/assay/commit/c57e43caa9abbcd617544527ef9d8b2e8f4dee0a) feat(video): post cover still (Thumb) from the held-out R2… <sub>· assay · 03 Nov 2026</sub>
 <!-- COMMITS:END -->
 
 </td>
 </tr>
 </table>
 
-<sub>Last refreshed: <!-- UPDATED:START -->13 Nov 2026, 13:53 UTC<!-- UPDATED:END --></sub>
+<sub>Last refreshed: <!-- UPDATED:START -->13 Nov 2026, 23:13 UTC<!-- UPDATED:END --></sub>
 
 ---
 
